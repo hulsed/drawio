@@ -1163,7 +1163,7 @@ App.prototype.checkLicense = function()
  */
 App.prototype.handleLicense = function(lic, domain)
 {
-	var footer = document.getElementById('geFooter');
+	var footer null; //= document.getElementById('geFooter');
 	var expiry = null;
 
 	if (footer != null && lic != null)

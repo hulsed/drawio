@@ -2786,17 +2786,17 @@
     /**
      * Shows the footer.
      */
-    EditorUi.prototype.showFooter = function(height)
-    {
-    	var footer = document.getElementById('geFooter');
-	    	
-    	if (footer != null)
-    	{
-    		this.footerHeight = height;
-    		footer.style.display = 'inline';
-    		this.refresh();
-    	}
-    };
+//    EditorUi.prototype.showFooter = function(height)
+//    {
+//    	var footer = document.getElementById('geFooter');
+//	    	
+//    	if (footer != null)
+//    	{
+//    		this.footerHeight = height;
+//    		footer.style.display = 'inline';
+//    		this.refresh();
+//    	}
+//    };
     
 	/**
 	 * Overrides image dialog to add image search and Google+.
